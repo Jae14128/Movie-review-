@@ -1,0 +1,20 @@
+{
+    "liveServer.settings.port": 5501,
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 55010,
+            "driver": "MySQL",
+            "name": "MYSQL (local)",
+            "database": "review",
+            "username": "work",
+            "password": "@Medallion16",
+            "connectionTimeout": 30
+        }
+    ]
+}
