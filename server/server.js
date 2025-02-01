@@ -1,8 +1,8 @@
-//import packages 
-import cors from "cors";
+//import packages
 import express from "express";
-import { db } from "./dbConnection";
-
+import cors from "cors";
+//db import 
+import {db} from "./dbConnection.js";
 
 //initialise express server
 const app=express();
@@ -27,5 +27,7 @@ const result= await db.query(`SELECT * FROM review`)
 //parse values into JSON & wrangle the data
 res.json(result.rows);
 });
+
+
 
 
