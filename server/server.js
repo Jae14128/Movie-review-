@@ -1,8 +1,7 @@
 //import packages 
 import cors from "cors";
 import express from "express";
-import dotenv from "dotenv";
-import pg from "pg";
+
 
 //initialise express server
 const app=express();
