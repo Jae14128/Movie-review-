@@ -1,1 +1,0 @@
-//array of object to use in the client until the database is connected and ready
