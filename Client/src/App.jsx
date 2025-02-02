@@ -8,7 +8,7 @@ export default function App() {
     const [feedback1, setFeedback2] = useState("");
     const [feedback2, setFeedback1]= useState(['I watched Moana 2, and I think it was amazing- John',
                                              'The Wallace and Gromit movie became a personal favourite, I would definitely recommend- Alison',
-                                             'I saw Wild Robot, it was not what I expected but it was still a good watch- Naomi' ]);
+                                             'I saw The Wild Robot, it was not what I expected but it was still a good watch- Naomi' ]);
 
    
    const handleSubmit = (event) => {
