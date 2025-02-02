@@ -35,7 +35,7 @@ export default function App() {
     <h1>All reviews</h1>
 
     <ul>
-        {feedback2.map((feedback2, index) => <li key={index}>{feedback2}</li>)}
+        {feedback2.map.((feedback2, index) => <li key={index}>{feedback2}</li>)}
     </ul>
     </div>
     
