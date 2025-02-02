@@ -36,7 +36,7 @@ export default function App() {
     <input type= "submit"/>
     </form>
 
-    <br></br>
+    
     <h1>All Reviews</h1>
    
     <ul>
