@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import styles from "./styles.css"
+
 
 
 export default function App() {
@@ -38,8 +38,7 @@ export default function App() {
 
     <br></br>
     <h1>All Reviews</h1>
-    
-
+   
     <ul>
         {feedback2.map((feedback2, index) => <li key={index}>{feedback2}</li>)}
     </ul>
