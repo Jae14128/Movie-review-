@@ -31,11 +31,11 @@ export default function App() {
     <input type= "submit"/>
     </form>
 
-    <br></br>
-    <h1>All reviews</h1>
+    
+    <h1><br>All Reviews</br></h1>
 
     <ul>
-        {feedback2.map.((feedback2, index) => <li key={index}>{feedback2}</li>)}
+        {feedback2.map((feedback2, index) => <li key={index}>{feedback2}</li>)}
     </ul>
     </div>
     
