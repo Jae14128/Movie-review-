@@ -5,8 +5,8 @@ import { useState } from "react";
 
 export default function App() {
     
-    const [feedback1, setFeedback2] = useState("");
-    const [feedback2, setFeedback1]= useState(['I watched Moana 2, and I think it was amazing- John',
+    const [feedback1, setFeedback1] = useState("");
+    const [feedback2, setFeedback2]= useState(['I watched Moana 2, and I think it was amazing- John',
                                              'The Wallace and Gromit movie became a personal favourite, I would definitely recommend- Alison',
                                              'I saw The Wild Robot, it was not what I expected but it was still a good watch- Naomi' ]);
 
