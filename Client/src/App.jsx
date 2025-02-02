@@ -1,5 +1,6 @@
 
 import { useState } from "react";
+import styles from "./styles.css"
 
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
    }
 
    return (
+    
     <div className="App">
 
         <img src="https://images.justwatch.com/poster/323606360/s166/moana-2" alt="Moana 2 movie advert"></img>
@@ -31,7 +33,6 @@ export default function App() {
 <form onSubmit={handleSubmit}>
 <div> Add your movie review</div>
     <input type="text" value={feedback1} onChange={(e) => setFeedback1(e.target.value)}/>
-    
     <input type= "submit"/>
     </form>
 
